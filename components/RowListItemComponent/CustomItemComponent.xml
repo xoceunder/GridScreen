@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2016 Roku Corp.  All Rights Reserved. -->
+
+<component name="customItem" extends="Group">
+
+  <interface>
+    <field id="width"  type="float" onChange="updateLayout"/>
+    <field id="height" type="float" onChange="updateLayout"/>
+	<field id="setWidth" type="float" alias="progressrectangle.width" alwaysNotify="true"/>
+    <field id="itemContent" type="node" onChange="itemContentChanged" />
+  </interface>
+  <script type="text/brightscript" uri="CustomItemComponent.brs" />
+  <children>
+      <Poster id="poster" />
+      <Rectangle
+            id="ProgressRectangle"
+            color="0x880088FF"
+            width="0"
+            height="15"
+            translation="[0,0]"
+            visible = "false" />
+  </children>
+
+</component>
