@@ -37,33 +37,6 @@
             showRowLabel="[true]"
             rowFocusAnimationStyle="floatingfocus"
         />
-    <RowList
-     id="RowList2"
-      itemComponentName="CustomItem"
-      focusXOffset="[165]"
-      itemSize="[1920,220]"
-      numRows="25"
-      rowFocusAnimationStyle="FixedFocusWrap"
-      rowHeights="[800,
-      300,300,300,300,300,
-      300,300,300,300,300,
-      300,300,300,300,300,
-      300,300,300,300,300,
-      300,300,300,300]"
-      rowItemSize="[[1400,700],
-      [375,197],[375,197],[375,197],[375,197],[375,197],
-      [375,197],[375,197],[375,197],[375,197],[375,197],
-      [375,197],[375,197],[375,197],[375,197],[375,197],
-      [375,197],[375,197],[375,197],[375,197],[375,197],
-      [375,197],[375,197],[375,197],[375,197]
-      ]"
-      rowItemSpacing="[[30,0]]"
-      rowLabelOffset="[[165,8]]"
-      showRowLabel="[true,true,true,true,true]"
-      showRowCounter="[true,true,true,false]"
-      translation="[0,155]"
-      
-      />
 
     </children>
 </component>
